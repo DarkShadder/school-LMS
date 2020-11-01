@@ -1,0 +1,4 @@
+CREATE TABLE `LMS`.`login` ( `username` VARCHAR(255) NOT NULL , `password` VARCHAR(255) NOT NULL , `id` INT(255) NOT NULL ) ENGINE = MyISAM;
+
+
+ALTER TABLE `login` ADD PRIMARY KEY(`username`);
